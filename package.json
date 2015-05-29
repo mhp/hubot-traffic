@@ -1,0 +1,21 @@
+{
+  "name": "hubot-traffic",
+  "version": "0.0.1",
+  "description": "Raspberry Pi traffic lights from chat",
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mhp/hubot-traffic.git"
+  },
+
+  "main": "index.js",
+  "bin": {
+    "gpio-admin": "./fake-gpio-admin.sh"
+  },
+
+  "dependencies": {
+    "javascript-state-machine": "^2.3.5",
+    "pi-gpio": "0.0.7"
+  }
+}

@@ -62,7 +62,7 @@ var lights = statemachine.create({
       gpio.write(greenLed, 1);
 
       if (lights.context) {
-        lights.context = undef;
+        lights.context = undefined;
       }
     },
     onamber: function(ev, f, t) {
